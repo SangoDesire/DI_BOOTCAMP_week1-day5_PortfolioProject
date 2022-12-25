@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* body--------------- */
+
+body {
+    background-color: #f4f4f4;
+}
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: "Raleway";
+}
+
+
+/*navbar section */
+
+.navbar {
+    background-color: orange;
+    color: white;
+}
+
+
+/* navbar li  a element  */
+
+.textcolor {
+    color: white;
+}
+
+
+/*section  header*/
+
+header {
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/headerback.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* overlay */
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+header h2 {
+    font-size: 40px;
+    color: orange;
+    position: absolute;
+    top: 25%;
+    left: 36%;
+}
+
+
+/* paragraphe of header section */
+
+header p {
+    font-size: 20px;
+    position: absolute;
+    top: 32%;
+    left: 36%;
+    width: 40%;
+}
+
+
+/* button see more of header */
+
+#btnsee {
+    position: absolute;
+    top: 100%;
+    left: 1%;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+}
+
+
+/* titles of sections */
+
+.section-title {
+    text-align: center;
+    color: orange;
+    margin-top: 50px;
+}
+
+.section-photo {
+    text-align: center;
+}
+
+.imgface1 {
+    width: 40%;
+    left: 45px;
+}
+
+.section-para h3 {
+    color: green;
+}
+
+
+/* separate section portfolio with other block */
+
+.about {
+    margin-top: 50px;
+}
+
+.portfolio {
+    margin-top: 50px;
+}
+
+.blog {
+    margin-top: 50px;
+}
+
+.team {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+
+/* vertical bar of About Me section*/
+
+.otherleft {
+    border-left: 1px solid green;
+}
+
+
+/* Title of sections */
+
+h2 {
+    top: 20px;
+}
+
+
+/* social networks  icons*/
+
+.icones {
+    color: orange;
+    text-align: center;
+    margin: auto;
+}
+
+.icones i {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+/* button send of the contact section */
+
+.sendbtn {
+    background-color: orange;
+    color: white;
+}
+
+
+/* block contact  */
+
+.contact {
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+/* name and function of the our team seaction */
+
+.name {
+    color: white;
+    background-color: orange;
+    height: 35px;
+    border-bottom-left-radius: 100%;
+    text-align: center;
+}
+
+.job {
+    color: gray;
+}
